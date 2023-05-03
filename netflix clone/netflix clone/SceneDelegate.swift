@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  netflix clone
-//
-//  Created by Ghaiath Alhereh on 25.04.23.
-//
+
 
 import UIKit
 
