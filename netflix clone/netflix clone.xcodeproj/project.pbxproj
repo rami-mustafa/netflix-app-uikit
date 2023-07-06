@@ -13,6 +13,7 @@
 		3845031329F9A95E00CD4182 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845031229F9A95E00CD4182 /* SearchViewController.swift */; };
 		3845031529F9A99200CD4182 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845031429F9A99200CD4182 /* DownloadsViewController.swift */; };
 		3870A2B62A55F49A00FD01D3 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870A2B52A55F49A00FD01D3 /* APICaller.swift */; };
+		38C0DC062A57560300E4C7CB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0DC052A57560300E4C7CB /* Movie.swift */; };
 		38EE9DEC29F866B900412C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9DEB29F866B900412C18 /* AppDelegate.swift */; };
 		38EE9DEE29F866B900412C18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9DED29F866B900412C18 /* SceneDelegate.swift */; };
 		38EE9DF029F866B900412C18 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9DEF29F866B900412C18 /* MainTabBarViewController.swift */; };
@@ -28,6 +29,7 @@
 		3845031229F9A95E00CD4182 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3845031429F9A99200CD4182 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		3870A2B52A55F49A00FD01D3 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		38C0DC052A57560300E4C7CB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		38EE9DE829F866B900412C18 /* netflix clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "netflix clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EE9DEB29F866B900412C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38EE9DED29F866B900412C18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		38F97B5929FD5F1100CA04CA /* models */ = {
 			isa = PBXGroup;
 			children = (
+				38C0DC052A57560300E4C7CB /* Movie.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				38EE9DEC29F866B900412C18 /* AppDelegate.swift in Sources */,
 				38EE9DEE29F866B900412C18 /* SceneDelegate.swift in Sources */,
 				3845031129F9A93800CD4182 /* UpcomingViewController.swift in Sources */,
+				38C0DC062A57560300E4C7CB /* Movie.swift in Sources */,
 				3845030F29F9A8F800CD4182 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
