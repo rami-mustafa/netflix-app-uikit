@@ -29,7 +29,7 @@ class HomeViewController: UIViewController {
         homeFeedTable.tableHeaderView = headerview
         
         
-        getTrendingMovies()
+        fetchData()
         
     }
     
@@ -52,17 +52,21 @@ class HomeViewController: UIViewController {
         homeFeedTable.frame = view.bounds
     }
     
-    private func getTrendingMovies (){
-        APICaller.shared.getTrendingMovies { _ in
-         
-            APICaller.shared.getTrendingMovies { results in
-                switch results {
-                case .success(let movies):
-                    print(movies)
-                case .failure(let error):
-                    print(error)
-                }
-            }
+    private func fetchData () {
+        
+//        APICaller.shared.getTrendingMovies { _ in
+//
+//            APICaller.shared.getTrendingMovies { results in
+//                switch results {
+//                case .success(let movies):
+//                    print(movies)
+//                case .failure(let error):
+//                    print(error)
+//                }
+//            }
+//        }
+        APICaller.shared.getTrendingTvs { results in
+            
         }
     }
 
