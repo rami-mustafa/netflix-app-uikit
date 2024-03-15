@@ -18,7 +18,7 @@ class HomeViewController: UIViewController {
     
    
     
-    let sectionTitles: [String] = ["Trending Movies", "Trending Tv", "Popular", "Upcoming Movies", "Top rated"]
+  private let sectionTitles: [String] = ["Trending Movies", "Trending Tv", "Popular", "Upcoming Movies", "Top rated"]
 
     
     
@@ -73,6 +73,7 @@ extension HomeViewController: UITableViewDelegate , UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return sectionTitles.count
     }
+ 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
@@ -88,7 +89,6 @@ extension HomeViewController: UITableViewDelegate , UITableViewDataSource {
           case Sections.TrendingMovies.rawValue:
               APICaller.shared.getTrendingMovies { result in
                   switch result {
-                      
                   case .success(let titles):
                       cell.configure(with: titles)
                   case .failure(let error):
@@ -102,7 +102,7 @@ extension HomeViewController: UITableViewDelegate , UITableViewDataSource {
               APICaller.shared.getTrendingTvs { result in
                   switch result {
                   case .success(let titles):
-//                      cell.configure(with: titles)
+                      cell.configure(with: titles)
                       print(titles)
                   case .failure(let error):
                       print(error.localizedDescription)
