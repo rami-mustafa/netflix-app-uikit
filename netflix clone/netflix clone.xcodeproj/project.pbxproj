@@ -13,6 +13,7 @@
 		3845031129F9A93800CD4182 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845031029F9A93800CD4182 /* UpcomingViewController.swift */; };
 		3845031329F9A95E00CD4182 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845031229F9A95E00CD4182 /* SearchViewController.swift */; };
 		3845031529F9A99200CD4182 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845031429F9A99200CD4182 /* DownloadsViewController.swift */; };
+		3857E8632BB0BAE500B68E2C /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857E8622BB0BAE500B68E2C /* SearchResultsViewController.swift */; };
 		3870A2B62A55F49A00FD01D3 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870A2B52A55F49A00FD01D3 /* APICaller.swift */; };
 		3888EF5E2A59A6A30049C10B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888EF5D2A59A6A30049C10B /* Extensions.swift */; };
 		38C0DC062A57560300E4C7CB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0DC052A57560300E4C7CB /* Title.swift */; };
@@ -36,6 +37,7 @@
 		3845031029F9A93800CD4182 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		3845031229F9A95E00CD4182 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3845031429F9A99200CD4182 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		3857E8622BB0BAE500B68E2C /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		3870A2B52A55F49A00FD01D3 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		3888EF5D2A59A6A30049C10B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		38C0DC052A57560300E4C7CB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
@@ -68,12 +70,21 @@
 		3845030D29F9A89A00CD4182 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3857E8612BB0BAC500B68E2C /* General */,
 				3845030E29F9A8F700CD4182 /* HomeViewController.swift */,
 				3845031029F9A93800CD4182 /* UpcomingViewController.swift */,
 				3845031229F9A95E00CD4182 /* SearchViewController.swift */,
 				3845031429F9A99200CD4182 /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3857E8612BB0BAC500B68E2C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3857E8622BB0BAE500B68E2C /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		38EE9DDF29F866B900412C18 = {
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3845031329F9A95E00CD4182 /* SearchViewController.swift in Sources */,
+				3857E8632BB0BAE500B68E2C /* SearchResultsViewController.swift in Sources */,
 				38EE9DF029F866B900412C18 /* MainTabBarViewController.swift in Sources */,
 				38F97B5D29FD606500CA04CA /* CollectionViewTableViewCell.swift in Sources */,
 				3870A2B62A55F49A00FD01D3 /* APICaller.swift in Sources */,
