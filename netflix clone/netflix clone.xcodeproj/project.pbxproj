@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380743F62BB8ACB000F09F0A /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380743F52BB8ACB000F09F0A /* YoutubeSearchResponse.swift */; };
 		382BDEE32A5B44C300AE44AB /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382BDEE22A5B44C300AE44AB /* Tv.swift */; };
 		382C25492A02E87800CAAB09 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C25482A02E87800CAAB09 /* HeroHeaderUIView.swift */; };
 		3845030F29F9A8F800CD4182 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845030E29F9A8F700CD4182 /* HomeViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		380743F52BB8ACB000F09F0A /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		382BDEE22A5B44C300AE44AB /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 		382C25482A02E87800CAAB09 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		3845030E29F9A8F700CD4182 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -69,9 +71,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380743F32BB8AC7B00F09F0A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		3845030D29F9A89A00CD4182 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				380743F32BB8AC7B00F09F0A /* Core */,
 				3857E8612BB0BAC500B68E2C /* General */,
 				3845030E29F9A8F700CD4182 /* HomeViewController.swift */,
 				3845031029F9A93800CD4182 /* UpcomingViewController.swift */,
@@ -149,6 +159,7 @@
 			children = (
 				38C0DC052A57560300E4C7CB /* Title.swift */,
 				382BDEE22A5B44C300AE44AB /* Tv.swift */,
+				380743F52BB8ACB000F09F0A /* YoutubeSearchResponse.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -249,6 +260,7 @@
 				3845031329F9A95E00CD4182 /* SearchViewController.swift in Sources */,
 				3857E8632BB0BAE500B68E2C /* SearchResultsViewController.swift in Sources */,
 				38EE9DF029F866B900412C18 /* MainTabBarViewController.swift in Sources */,
+				380743F62BB8ACB000F09F0A /* YoutubeSearchResponse.swift in Sources */,
 				38F97B5D29FD606500CA04CA /* CollectionViewTableViewCell.swift in Sources */,
 				3870A2B62A55F49A00FD01D3 /* APICaller.swift in Sources */,
 				382C25492A02E87800CAAB09 /* HeroHeaderUIView.swift in Sources */,
